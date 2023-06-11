@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <img class="header__logo" src="./imagens/logo.png" alt="logo">
+        <nav class="nav">
+            <ul class="header__menu">
+                <li><a class="items__menu" href="#inicio">Início</a></li>
+                <li><a class="items__menu" href="#10anos">10 Anos</a></li>
+                <li><a class="items__menu" href="#casas">Casas</a></li>
+                <li><a class="items__menu" href="#contato">Contato</a></li>
+                <li><a class="items__menu" href="#endereco">Endereço</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="sessao" id="inicio">
+        <div class="container flex">
+            <aside class="text__container">
+                <h1 class="text__title">A Melhor Hospedagem</h1>
+                <h1 class="text__subtitle">do Brasil</h1>
+                <p class="text__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illo minima dolor iste dolorem, esse eum! Impedit necessitatibus eum ratione cum labore, facere modi voluptates, delectus excepturi, magni vero fugiat.</p>
+            </aside>
+            <aside class="image__container">
+                <figure class="image__figure">
+                    <img src="./imagens/foto8.jpg" alt="imagem">
+                    <p>Conforto</p>
+                </figure>
+            </aside>
+        </div>
+    </section>
+    
+    <section class="sessao" id="10anos">
+        <div class="container flex">
+            <aside class="image__container">
+                <figure class="image__figure">
+                    <img src="./imagens/foto7.jpg" alt="">
+                    <p>Casas aconchegantes</p>
+                </figure>
+            </aside>
+                    
+            <aside class="text__container">
+                <h2 class="text__subtitle">10 anos no mercado</h2>
+                <h3 class="text__title">Conforto e qualidade!</h3>
+                <p class="text__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum exercitationem, debitis animi quod voluptatem, veniam quasi totam fuga sit eius.</p>
+            </aside>
+        </div>
+    </section>
+    
+    <section class="sessao" id="casas">
+        <div class="container flex">
+            <aside class="text__container">
+                <h2 class="text__subtitle">Casas Selecionadas</h2>
+                <p class="text__paragraph">Nós da <span class="name">Airbnb</span> trabalhamos com padrão Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti voluptate, excepturi minus incidunt id animi, molestiae eius quaerat, qui maxime asperiores. Illo voluptates animi cupiditate quaerat omnis, ducimus accusamus.</p>
+            </aside>
+    
+            <aside class="image__container">
+                <figure class="image__figure">
+                    <img src="./imagens/foto6.jpg" alt="">
+                    <p>Amplo espaço</p>
+                </figure>
+            </aside>
+        </div>
+    </section>
+    
+    <section class="sessao flex" id="contato">
+        <div class="container flex">
+            <aside class="text__container text__center">
+                <h2  class="text__subtitle text__center">Fale Conosco!</h2>
+                <p class="text__paragraph text__center">Sua opnião é muito importante para nós! <br> Faça sua pergunta, queremos o seu Feedback!</p>
+            </aside>
+            
+            <aside>
+                <form action="" id="form">
+                    <div class="form__container">
+                        <input class="form__field" type="text" placeholder="Nome" required />
+                        <input  class="form__field" type="email" placeholder="E-mail" required/>
+                        <textarea class="form__field" placeholder="Escreva sua mensagem!"required></textarea>
+                        <input class="form__button" value="Enviar" type="submit">
+                    </div>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="footer" id="endereco">
+        <div class="container">
+
+            <div class="footer__container">
+                <div class="footer__column">
+                    <h2 class="footer__title">Explore Cidades</h2>
+                    <ul class="footer__links">
+                        <li>Caruaru</li>
+                        <li>Santa Cruz</li>
+                        <li>Bonito</li>
+                        <li>Gravata</li>
+                        <li>Garanhus</li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h2 class="footer__title">Social</h2>
+                    <ul class="footer__social">
+                        <li><a href="#"><i class="icones fa fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="icones fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="icones fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="icones fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h2 class="footer__title">Endereço</h2>
+                    <div class="footer__endereco">
+                        <p>Rua Fulano de Tal, 345 - Sala 5</p>
+                        <p>Caruaru-PE</p>
+                        <p>CEP: 55000-000</p>
+                        <p>Telefone: 81-4002-8922</p>
+                        <p>Email: comercial@airbnb.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+      
+</body>
+
+</html>
