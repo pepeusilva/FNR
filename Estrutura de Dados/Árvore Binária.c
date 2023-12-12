@@ -51,3 +51,7 @@ int main() {
 
     return 0;
 }
+
+//Responder as seguintes perguntas:
+//Qual é a profundidade da árvore formada? profundidade 4
+//Quais são os nós que são nós folhas? 34, 64, 133, 422, 523
